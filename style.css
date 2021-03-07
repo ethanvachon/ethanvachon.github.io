@@ -3,7 +3,7 @@
 }
 #main {
   background-image: linear-gradient(rgb(17, 17, 17), rgb(78, 78, 78));
-  height: 100vh;
+  height: 110vh;
 }
 footer {
   height: 7vh;
@@ -37,6 +37,9 @@ body {
 .btn {
   border-radius: 2px !important;
 }
+/* #apps {
+  position: absolute;
+} */
 img {
   height: 4vh;
   width: auto;
