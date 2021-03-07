@@ -1,0 +1,37 @@
+.info {
+  height: 7vh;
+}
+#main {
+  background-image: linear-gradient(rgb(17, 17, 17), rgb(78, 78, 78));
+  height: 150vh;
+}
+footer {
+  height: 7vh;
+}
+html {
+  background-color: rgb(17, 17, 17);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+.task {
+  transition: height 0.2s;
+  height: 8vh;
+}
+.task:hover .hidden {
+  display: inherit !important;
+}
+.task:hover {
+  height: 13vh;
+}
+.task:hover .nothidden {
+  transform: rotate(180deg);
+  transition: 0.2s;
+}
+img {
+  height: 4vh;
+  width: auto;
+}
