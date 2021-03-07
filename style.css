@@ -3,7 +3,7 @@
 }
 #main {
   background-image: linear-gradient(rgb(17, 17, 17), rgb(78, 78, 78));
-  height: 150vh;
+  height: 100vh;
 }
 footer {
   height: 7vh;
@@ -30,6 +30,12 @@ body {
 .task:hover .nothidden {
   transform: rotate(180deg);
   transition: 0.2s;
+}
+.card {
+  border-radius: 2px !important;
+}
+.btn {
+  border-radius: 2px !important;
 }
 img {
   height: 4vh;
