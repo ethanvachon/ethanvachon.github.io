@@ -17,6 +17,10 @@ body {
 .hidden {
   display: none !important;
 }
+.selected {
+  background-color: black;
+  color: white;
+}
 .task {
   transition: height 0.2s;
   height: 8vh;
@@ -40,4 +44,12 @@ body {
 img {
   height: 4vh;
   width: auto;
+}
+#portfolio-text:hover {
+  background-color: black;
+  color: white;
+}
+#about-text:hover {
+  background-color: black;
+  color: white;
 }
