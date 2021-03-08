@@ -19,97 +19,117 @@
           <div class="card-body">
             <h2 class="card-title border-bottom mb-0">Ethan Vachon</h2>
             <h5 class="card-title">Software Developer</h5>
-            <p>Portfolio</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row mb-5">
-      <div class="col-4" id="apps">
-        <div class="card task">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h4 class="card-title">Habio</h4>
-              <i class="fas fa-chevron-up nothidden"></i>
-            </div>
-            <div class="hidden">
-              <a target="_blank" href="https://github.com/DanielMadden/Hab.io"><button class="btn btn-outline-dark">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark">Deployment</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row mb-5">
-      <div class="col-4 offset-8" id="apps">
-        <div class="card task">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h4 class="card-title">Keepr</h4>
-              <i class="fas fa-chevron-up nothidden"></i>
-            </div>
-            <div class="hidden">
-              <a target="_blank" href="https://github.com/ethanvachon/Keepr"><button class="btn btn-outline-dark">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark">Deployment</button></a>
+            <div class="d-flex justify-content-around">
+              <p onclick="switchTabs('about')">Portfolio</p>
+              <p onclick="switchTabs('portfolio')">About</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row mb-5">
-      <div class="col-4">
-        <div class="card task">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h4 class="card-title">Bug Log</h4>
-              <i class="fas fa-chevron-up nothidden"></i>
-            </div>
-            <div class="hidden">
-              <a target="_blank" href="https://github.com/ethanvachon/Bug-Log"><button class="btn btn-outline-dark">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark">Deployment</button></a>
+    <div id="about" class="hidden">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">About me</h4>
+              <p class="card-text">
+                My entire life I've had a passion for solving puzzles, tech, and most importantly learning. When I was young I was learning to code, even going to coding summer camps and just learning on my own. I eventually found out how much I enjoy chess, and I started competing locally in the highest available division. Eventually, I found my next passion, which was music. I joined the band and wanted to be like the seniors I looked up to, competing in the state solo competition. Two years later, I placed 1st at that competition and soon after felt as though my time with music had come to a natural end, so I started my search for something I'm passionate enough about to make my career. I started learning to code on my own on CodeCademy and fell in love with it. I soon after went though the immersive full stack course at Boise Codeworks and never looked back. I have a love for coding and working with anyone else that shares that passion.  
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="row mb-5">
-      <div class="col-4 offset-8">
-        <div class="card task">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h4 class="card-title">Bloggr</h4>
-              <i class="fas fa-chevron-up nothidden"></i>
-            </div>
-            <div class="hidden">
-              <a target="_blank" href="https://github.com/ethanvachon/Bloggr"><button class="btn btn-outline-dark">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark">Deployment</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-        <div class="row mb-5">
-          <div class="col-4">
-            <div class="card task">
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <h4 class="card-title">Task Master</h4>
-                  <i class="fas fa-chevron-up nothidden"></i>
-                </div>
-                <div class="hidden">
-                  <a target="_blank" href="https://github.com/ethanvachon/Task-Master"><button class="btn btn-outline-dark">Repository</button></a>
-                  <a target="_blank" href="https://ethanvachon.github.io/Task-Master/"><button class="btn btn-outline-dark">Deployment</button></a>
-                </div>
+    <div id="portfolio">
+
+      <div class="row mb-5">
+        <div class="col-4" id="apps">
+          <div class="card task">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h4 class="card-title">Habio</h4>
+                <i class="fas fa-chevron-up nothidden"></i>
+              </div>
+              <div class="hidden">
+                <a target="_blank" href="https://github.com/DanielMadden/Hab.io"><button class="btn btn-outline-dark">Repository</button></a>
+                <a target="_blank" href=""><button class="btn btn-outline-dark" disabled>Deployment</button></a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      
+      <div class="row mb-5">
+        <div class="col-4 offset-8" id="apps">
+          <div class="card task">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h4 class="card-title">Keepr</h4>
+                <i class="fas fa-chevron-up nothidden"></i>
+              </div>
+              <div class="hidden">
+                <a target="_blank" href="https://github.com/ethanvachon/Keepr"><button class="btn btn-outline-dark">Repository</button></a>
+                <a target="_blank" href=""><button class="btn btn-outline-dark" disabled>Deployment</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row mb-5">
+        <div class="col-4">
+          <div class="card task">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h4 class="card-title">Bug Log</h4>
+                <i class="fas fa-chevron-up nothidden"></i>
+              </div>
+              <div class="hidden">
+                <a target="_blank" href="https://github.com/ethanvachon/Bug-Log"><button class="btn btn-outline-dark">Repository</button></a>
+                <a target="_blank" href=""><button class="btn btn-outline-dark" disabled>Deployment</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mb-5">
+        <div class="col-4 offset-8">
+          <div class="card task">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h4 class="card-title">Bloggr</h4>
+                <i class="fas fa-chevron-up nothidden"></i>
+              </div>
+              <div class="hidden">
+                <a target="_blank" href="https://github.com/ethanvachon/Bloggr"><button class="btn btn-outline-dark">Repository</button></a>
+                <a target="_blank" href=""><button class="btn btn-outline-dark" disabled>Deployment</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+          <div class="row mb-5">
+            <div class="col-4">
+              <div class="card task">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="card-title">Task Master</h4>
+                    <i class="fas fa-chevron-up nothidden"></i>
+                  </div>
+                  <div class="hidden">
+                    <a target="_blank" href="https://github.com/ethanvachon/Task-Master"><button class="btn btn-outline-dark">Repository</button></a>
+                    <a target="_blank" href="https://ethanvachon.github.io/Task-Master/"><button class="btn btn-outline-dark">Deployment</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
   </div>
   <footer class="container-fluid">
     <div class="row">
@@ -120,5 +140,6 @@
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
