@@ -48,8 +48,10 @@ img {
 #portfolio-text:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 #about-text:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
