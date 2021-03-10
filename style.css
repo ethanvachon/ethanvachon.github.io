@@ -34,6 +34,7 @@ body {
 .task:hover .nothidden {
   transform: rotate(180deg);
   transition: 0.2s;
+  transform-origin: center;
 }
 .card {
   border-radius: 2px !important;
