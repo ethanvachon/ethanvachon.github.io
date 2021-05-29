@@ -12,39 +12,54 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
-  <div class="container-fluid" id="main">
-    <div class="row mb-5">
-      <div class="col-4 offset-4">
-        <div class="card my-5">
-          <div class="card-body">
-            <h2 class="card-title border-bottom mb-0">Ethan Vachon</h2>
-            <h5 class="card-title">Software Developer</h5>
-            <div class="d-flex justify-content-around">
-              <p id="portfolio-text" class="selected p-1 rounded" onclick="switchTabs('about')">Portfolio</p>
-              <p id="about-text" class="p-1 rounded" onclick="switchTabs('portfolio')">About</p>
-            </div>
+  <div class="container-fluid pb-5" id="main">
+    <div class="row mb-5 pt-5 pb-5">
+      <div class="col-3 offset-1">
+            <h1 class="border-bottom mb-0">Ethan Vachon</h1>
+            <h3>Software Developer</h3>
+      </div>
+      <div class="col-5 offset-3 d-flex justify-content-around">
+        <h3>About</h3>
+        <h3>Portfolio</h3>
+        <h3>Contact</h3>
+      </div>
+    </div>
+    <div class="row my-5 py-3">
+      <div class="col-8 offset-2 d-flex justify-content-around">
+        <img src="./landing page icons/html.png" alt="">
+        <img src="./landing page icons/vue.png" alt="">
+        <img src="./landing page icons/react.png" alt="">
+        <img src="./landing page icons/jquery.png" alt="">
+      </div>
+    </div>
+    <div class="row my-5 py-3">
+      <div class="col-8 offset-2 d-flex justify-content-around">
+        <img src="./landing page icons/css.png" alt="">
+        <img src="./landing page icons/bootstrap.png" alt="">
+        <img src="./landing page icons/tailwind.png" alt="">
+      </div>
+    </div>
+    <div class="row my-5 py-3">
+      <div class="col-8 offset-2 d-flex justify-content-around">
+        <img src="./landing page icons/javascript.png" alt="">
+        <img src="./landing page icons/c.png" alt="">
+        <img src="./landing page icons/node.png" alt="">
+        <img src="./landing page icons/sql.png" alt="">
+      </div>
+    </div>
+      <div class="row my-5 py-5">
+        <div class="col-10 offset-1">
+          <div class="card rounded p-3 m-1">
+            <h1 class="border-bottom">About me</h2>
+            <h5>
+              My entire life I've had a passion for solving puzzles, tech, and most importantly learning. When I was young I was learning to code, even going to coding summer camps and just learning on my own. I eventually found out how much I enjoy chess, and I started competing locally in the highest available division. Eventually, I found my next passion, which was music. I joined the band and wanted to be like the seniors I looked up to, competing in the state solo competition. Two years later, I placed 1st at that competition and soon after felt as though my time with music had come to a natural end, so I started my search for something I'm passionate enough about to make my career. I started learning to code on my own on CodeCademy and fell in love with it. I soon after went though the immersive full stack course at Boise Codeworks and never looked back. I have a love for coding and working with anyone else that shares that passion. 
+            </h5>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="about" class="hidden">
-      <div class="row">
-        <div class="col-8 offset-2">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">About me</h4>
-              <p class="card-text">
-                My entire life I've had a passion for solving puzzles, tech, and most importantly learning. When I was young I was learning to code, even going to coding summer camps and just learning on my own. I eventually found out how much I enjoy chess, and I started competing locally in the highest available division. Eventually, I found my next passion, which was music. I joined the band and wanted to be like the seniors I looked up to, competing in the state solo competition. Two years later, I placed 1st at that competition and soon after felt as though my time with music had come to a natural end, so I started my search for something I'm passionate enough about to make my career. I started learning to code on my own on CodeCademy and fell in love with it. I soon after went though the immersive full stack course at Boise Codeworks and never looked back. I have a love for coding and working with anyone else that shares that passion. 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="portfolio">
 
-      <div class="row mb-5">
+      <!-- <div class="row">
         <div class="col-4" id="apps">
           <div class="card task">
             <div class="card-body">
@@ -58,11 +73,9 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
       
-      <div class="row mb-5">
-        <div class="col-4 offset-8" id="apps">
+        <!-- <div class="col-4" id="apps">
           <div class="card task">
             <div class="card-body">
               <div class="d-flex justify-content-between">
@@ -76,9 +89,7 @@
             </div>
           </div>
         </div>
-      </div>
   
-      <div class="row mb-5">
         <div class="col-4">
           <div class="card task">
             <div class="card-body">
@@ -93,10 +104,8 @@
             </div>
           </div>
         </div>
-      </div>
       
-      <div class="row mb-5">
-        <div class="col-4 offset-8">
+        <div class="col-4">
           <div class="card task">
             <div class="card-body">
               <div class="d-flex justify-content-between">
@@ -110,10 +119,8 @@
             </div>
           </div>
         </div>
-      </div>
       
       
-          <div class="row mb-5">
             <div class="col-4">
               <div class="card task">
                 <div class="card-body">
@@ -128,15 +135,14 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
     </div>
-  </div>
   <footer class="container-fluid">
     <div class="row">
       <div class="col-12 d-flex align-items-center justify-content-around info">
         <h5 class="pb-0">208-869-2501</h5>
         <h5 class="pb-0"><a target="_blank" href="https://www.linkedin.com/in/ethan-vachon/">LinkedIn</a></h5>
-        <a target="_blank" href="https://github.com/ethanvachon"><img src="GitHub.png" alt=""></a>
+        <a target="_blank" href="https://github.com/ethanvachon"><img src="./landing page icons/GitHub.png" alt=""></a>
       </div>
     </div>
   </footer>

@@ -1,9 +1,15 @@
+.col-8 img {
+  height: 100px;
+  width: auto;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .info {
   height: 7vh;
 }
 #main {
-  background-image: linear-gradient(rgb(17, 17, 17), rgb(78, 78, 78));
-  height: 110vh;
+  background: url("./background-tile.png") #ffffff59;
 }
 footer {
   height: 7vh;
