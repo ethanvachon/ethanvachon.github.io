@@ -20,45 +20,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-.hidden {
-  display: none !important;
-}
-.selected {
-  background-color: black;
-  color: white;
-}
-.task {
-  transition: height 0.2s;
-  height: 8vh;
-}
-.task:hover .hidden {
-  display: inherit !important;
-}
-.task:hover {
-  height: 13vh;
-}
-.task:hover .nothidden {
-  transform: rotate(180deg);
-  transition: 0.2s;
-  transform-origin: center;
-}
-.card {
-  border-radius: 2px !important;
-}
-.btn {
-  border-radius: 2px !important;
-}
 img {
-  height: 4vh;
+  height: 5vh;
   width: auto;
-}
-#portfolio-text:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
-#about-text:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
 }
