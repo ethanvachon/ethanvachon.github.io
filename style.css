@@ -2,6 +2,19 @@
   height: 100px;
   width: auto;
 }
+.link:hover {
+  text-decoration: none;
+  color: black;
+}
+.font-size {
+  font-size: 1rem;
+}
+.link {
+  color: black;
+}
+.wrap {
+  width: 20rem;
+}
 #nav-items h3:hover {
   font-weight: bold;
   border-bottom: rgb(156, 72, 156) 5px solid;
