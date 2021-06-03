@@ -2,6 +2,15 @@
   height: 100px;
   width: auto;
 }
+#nav-items h3:hover {
+  font-weight: bold;
+  border-bottom: rgb(156, 72, 156) 5px solid;
+  transition: 100ms;
+}
+#nav-items a {
+  text-decoration: none;
+  color: rgb(156, 72, 156);
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

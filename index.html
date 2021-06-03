@@ -18,10 +18,10 @@
             <h1 class="border-bottom border-dark mb-0">Ethan Vachon</h1>
             <h3>Software Developer</h3>
       </div>
-      <div class="col-5 offset-3 d-flex justify-content-around align-items-center">
-        <h3>About</h3>
-        <h3>Portfolio</h3>
-        <h3>Contact</h3>
+      <div class="col-5 offset-3 d-flex justify-content-around align-items-center" id="nav-items">
+        <a href="#about"><h3>About</h3></a>
+        <a href="#portfolio"><h3>Portfolio</h3></a>
+        <a href="#contact"><h3>Contact</h3></a>
       </div>
     </div>
     <div class="row my-5 py-3">
@@ -47,9 +47,9 @@
         <img src="./landing page icons/sql.png" alt="">
       </div>
     </div>
-      <div class="row my-5 py-5">
+      <div class="row my-5 py-5" id="about">
         <div class="col-10 offset-1">
-          <div class="card rounded p-3 m-1">
+          <div class="card rounded p-3 m-1 mb-5">
             <h1 class="border-bottom">About me</h2>
             <h5>
               My entire life I've had a passion for solving puzzles, tech, and most importantly learning. When I was young I was learning to code, even going to coding summer camps and just learning on my own. I eventually found out how much I enjoy chess, and I started competing locally in the highest available division. Eventually, I found my next passion, which was music. I joined the band and wanted to be like the seniors I looked up to, competing in the state solo competition. Two years later, I placed 1st at that competition and soon after felt as though my time with music had come to a natural end, so I started my search for something I'm passionate enough about to make my career. I started learning to code on my own on CodeCademy and fell in love with it. I soon after went though the immersive full stack course at Boise Codeworks and never looked back. I have a love for coding and working with anyone else that shares that passion. 
@@ -57,47 +57,63 @@
           </div>
         </div>
       </div>
-
-      <div class="row my-5">
+      <div class="row mb-3 mt-5">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <h1 class="pb-1 border-bottom border-dark">Portfolio</h1>
+        </div>
+      </div>
+      <div class="row mb-5 py-5" id="portfolio">
         <div class="col-10 offset-1 d-flex justify-content-around">
+          
           <div class="card p-3 rounded">
-            <h3 class="border-bottom mb-1">Keepr</h3>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <a target="_blank" href="https://github.com/ethanvachon/Keepr"><button class="btn btn-outline-dark my-2">Repository</button></a>
-              <a target="_blank" href="https://ethanvach-keepr.herokuapp.com/#/"><button class="btn btn-outline-dark my-2">Deployment</button></a>
-            </div>
-          </div>
-          <div class="card p-3 rounded">
-            <h3 class="border-bottom mb-1">Dothello</h3>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <a target="_blank" href="https://github.com/ethanvachon/Dothello"><button class="btn btn-outline-dark my-2">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark my-2">Deployment</button></a>
+            <h3 class="border-bottom mb-1">StackUnderflow</h3>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/ethanvachon/stackunderflow-front"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://stackunderflow-app.herokuapp.com/#/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
             </div>
           </div>
           <div class="card p-3 rounded">
             <h3 class="border-bottom mb-1">Hab.io</h3>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <a target="_blank" href="https://github.com/DanielMadden/Hab.io"><button class="btn btn-outline-dark my-2">Repository</button></a>
-              <a target="_blank" href="https://habio.herokuapp.com/#/"><button class="btn btn-outline-dark my-2">Deployment</button></a>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/DanielMadden/Hab.io"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://habio.herokuapp.com/#/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="row my-5">
+      <div class="row my-5 pb-5">
         <div class="col-10 offset-1 d-flex justify-content-around">
           <div class="card p-3 rounded">
-            <h3 class="border-bottom mb-1">React Calculator</h3>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <a target="_blank" href=""><button class="btn btn-outline-dark my-2">Repository</button></a>
-              <a target="_blank" href=""><button class="btn btn-outline-dark my-2">Deployment</button></a>
+            <h3 class="border-bottom mb-1">Keepr</h3>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/ethanvachon/Keepr"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://ethanvach-keepr.herokuapp.com/#/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
+            </div>
+          </div>
+          <div class="card p-3 rounded">
+            <h3 class="border-bottom mb-1">Dothello</h3>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/ethanvachon/Dothello"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://dothello-app.herokuapp.com/#/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row my-5 pb-5">
+        <div class="col-10 offset-1 d-flex justify-content-around">
+          <div class="card p-3 rounded">
+            <h3 class="border-bottom mb-1">Calculator</h3>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/ethanvachon/react-calculator"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://ethanvachon.github.io/react-calculator/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
             </div>
           </div>
           <div class="card p-3 rounded">
             <h3 class="border-bottom mb-1">Bug Log</h3>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-              <a target="_blank" href="https://github.com/ethanvachon/Bug-Log"><button class="btn btn-outline-dark my-2">Repository</button></a>
-              <a target="_blank" href="https://ethanvach-bugtracker.herokuapp.com/#/"><button class="btn btn-outline-dark my-2">Deployment</button></a>
+            <div class="d-flex justify-content-around align-items-center">
+              <a target="_blank" href="https://github.com/ethanvachon/Bug-Log"><button class="btn btn-outline-dark m-2">Repository</button></a>
+              <a target="_blank" href="https://ethanvach-bugtracker.herokuapp.com/#/"><button class="btn btn-outline-dark m-2">Deployment</button></a>
             </div>
           </div>
         </div>
@@ -183,7 +199,7 @@
           </div> -->
     </div>
   <footer class="container-fluid">
-    <div class="row my-1">
+    <div class="row my-1" id="contact">
       <div class="col-12 d-flex align-items-center justify-content-around info">
         <span class="d-flex align-items-center"><i class="fas fa-phone-alt pr-1"></i> <h5 class="pl-2 pb-0 mb-0">208-869-2501</h5></span>
         <h5 class="pb-0"><a target="_blank" href="https://www.linkedin.com/in/ethan-vachon/">LinkedIn</a></h5>
