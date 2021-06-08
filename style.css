@@ -1,6 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
 .col-8 img {
   height: 100px;
   width: auto;
+}
+.fixed {
+  position: fixed;
 }
 .link:hover {
   text-decoration: none;
