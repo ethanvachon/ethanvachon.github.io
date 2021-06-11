@@ -7,6 +7,12 @@ html {
 }
 .fixed {
   position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  margin: 10px;
+  background-color: rgb(243, 243, 243);
+  transition: 1s;
 }
 .link:hover {
   text-decoration: none;
@@ -21,10 +27,16 @@ html {
 .wrap {
   width: 20rem;
 }
+#nav-items {
+  border-radius: 0.5rem;
+}
 #nav-items h3:hover {
   font-weight: bold;
   border-bottom: rgb(156, 72, 156) 5px solid;
-  transition: 100ms;
+  transition: 200ms;
+}
+#nav-items h3 {
+  margin-top: 10px;
 }
 #nav-items a {
   text-decoration: none;
