@@ -11,7 +11,7 @@ html {
   right: 0px;
   z-index: 100;
   margin: 10px;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(250, 250, 250);
   transition: 1s;
 }
 .link:hover {
